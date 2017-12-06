@@ -4,6 +4,14 @@
 }
 html {
   font-size: 16px;
+
+  @include tablets {
+    font-size: 14px;
+  }
+
+  @include phones {
+    font-size: 12px;
+  }
 }
 body {
   font-size: rem(14px);
@@ -16,4 +24,7 @@ body {
 .section {
   height: 100vh;
   min-height: rem(650px);
+}
+.wrapper {
+  overflow: hidden;
 }
