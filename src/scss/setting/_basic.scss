@@ -1,0 +1,19 @@
+*,*::before,
+*,*::after {
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-size: rem(14px);
+  line-height: rem(24px);
+  font-weight: 400;
+  color: #282828;
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffffff;
+}
+.section {
+  height: 100vh;
+  min-height: rem(650px);
+}

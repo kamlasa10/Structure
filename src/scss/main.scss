@@ -1,0 +1,13 @@
+//variables
+$black: #626262;
+$Ralwey: 'Raleway', Arial, sans-serif;
+$Roboto: 'Roboto', Arial, sans-serif;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "setting/mixin";
+@import "setting/fonts";
+@import "setting/basic";
+
+@import "section/first";
+
