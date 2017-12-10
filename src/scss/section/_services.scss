@@ -1,0 +1,21 @@
+.services {
+  background-color: #286b0a;
+  color: #ffffff;
+}
+.services__item {
+  text-align: center;
+}
+.services__img {
+  margin-bottom: rem(30px);
+}
+.services__title {
+  margin-bottom: rem(30px);
+  font-size: rem(20px);
+  font-weight: 700;
+  line-height: rem(18px);
+}
+.services-btn {
+  padding-left: rem(50px);
+  padding-right: rem(50px);
+  font-weight: 700;
+}

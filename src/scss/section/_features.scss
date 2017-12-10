@@ -1,0 +1,48 @@
+.features__heading {
+  margin-bottom: rem(125px);
+
+  @include tablets {
+    margin-bottom: rem(80px);
+  }
+
+  @include phones {
+    margin-bottom: rem(50px);
+  }
+}
+.features__item {
+  margin-bottom: rem(40px);
+  text-align: center;
+
+  @include phones {
+    display: flex;
+    margin-bottom: rem(20px);
+
+  }
+}
+.features__img {
+  margin-bottom: rem(60px);
+
+  @include tablets {
+    margin-bottom: rem(35px);
+  }
+
+  @include phones {
+    margin-bottom: rem(25px);
+  }
+}
+.features__title {
+  margin-bottom: rem(25px);
+  font-size: rem(20px);
+  font-weight: 700;
+
+  @include phones {
+    margin-bottom: rem(15px);
+  }
+}
+.features__desc-link {
+  color: #4aa223;
+  text-decoration: underline;
+  &:hover {
+    color: lighten(#4aa223, 10%);
+  }
+}

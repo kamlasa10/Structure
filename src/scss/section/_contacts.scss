@@ -1,0 +1,21 @@
+.contacts {
+  color: #292929;
+  background: url("../../img/contacts-bg.png") center no-repeat;
+  background-size: cover;
+}
+.contacts__item {
+  margin-bottom: rem(25px);
+}
+.contacts__title {
+  margin-bottom: rem(8px);
+  font-size: rem(18px);
+}
+.contacts__desc {
+  font-size: rem(18px);
+}
+.contacts-map {
+  margin-bottom: rem(25px);
+}
+.contacts__message {
+  resize: none;
+}

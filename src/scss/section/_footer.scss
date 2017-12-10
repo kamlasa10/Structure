@@ -1,0 +1,29 @@
+.footer {
+  padding: rem(30px) 0;
+  background-color: #ffffff;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contacts__link {
+  align-self: center;
+  color: #292929;
+  font-size: rem(17px);
+  line-height: rem(24px);
+  text-decoration: underline;
+}
+.author {
+  text-align: right;
+}
+.author__title {
+  color: #000000;
+  font-size: rem(11px);
+  font-weight: 300;
+}

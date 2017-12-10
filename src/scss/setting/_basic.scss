@@ -14,17 +14,101 @@ html {
   }
 }
 body {
-  font-size: rem(14px);
-  line-height: rem(24px);
+  font-size: rem(16px);
+  line-height: rem(20px);
   font-weight: 400;
-  color: #282828;
-  font-family: 'Raleway', sans-serif;
+  color: $LightGray;
+  font-family: $ProximaNovaRg;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 .section {
   height: 100vh;
-  min-height: rem(650px);
+  min-height: rem(700px);
 }
 .wrapper {
   overflow: hidden;
+}
+.section-title {
+  margin-bottom: rem(45px);
+  font-size: rem(36px);
+  line-height: rem(45px);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  color: $Black;
+  
+  &--pos_left {
+    text-align: left;
+  }
+}
+.section-content-top {
+  text-align: center;
+  margin-bottom: rem(85px);
+
+  &--color_white {
+    color: #ffffff;
+  }
+}
+.section-text {
+  font-size: rem(19px);
+  line-height: rem(18px);
+
+  &--fz_small {
+    font-size: rem(16px);
+    line-height: rem(18px);
+  }
+}
+.btn {
+  white-space: nowrap;
+  display: inline-flex;
+  padding: rem(15px) rem(50px);
+  font-family: $ProximaNovaSemiBold;
+  font-size: rem(16px);
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ffb504;
+  background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%);
+  border: 1px solid #ffba15;
+  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #ffb504;
+    background-image: linear-gradient(to top, #d89800 0%, #ffc843 100%);
+  }
+}
+.global-p {
+  padding: rem(100px) 0;
+
+  @include phones {
+    padding: rem(50px) 0;
+  }
+}
+.custom-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: rem(40px);
+}
+.custom-list__item {
+  position: relative;
+  padding-left: rem(17px);
+  font-size: rem(18px);
+  line-height: 30px;
+}
+.custom-list__icon {
+  position: absolute;
+  top: rem(10px);
+  left: 0;
+  text-align: center;
+  width: rem(11px);
+  height: rem(9px);
+  background: url("../img/checked.png") no-repeat;
 }

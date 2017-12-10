@@ -1,0 +1,16 @@
+.process {
+  background: url("../img/process-bg.jpg") right bottom no-repeat;
+}
+.process__item {
+  margin-bottom: rem(85px);
+  padding: 0 rem(60px);
+}
+.process__img {
+  margin-bottom: rem(35px);
+}
+.process__title {
+  margin-bottom: rem(25px);
+  font-size: rem(22px);
+  line-height: rem(18px);
+  font-weight: 700;
+}

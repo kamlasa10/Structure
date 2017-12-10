@@ -1,7 +1,9 @@
 //variables
-$black: #626262;
-$Ralwey: 'Raleway', Arial, sans-serif;
-$Roboto: 'Roboto', Arial, sans-serif;
+$ProximaNovaRg:'Proxima Nova Rg', Georgia, sefif;
+$LightGray: #1a1820;
+$Black: #1a1820;
+$ProximaNovaSemiBold: 'Proxima Nova Lt', Georgia, serif;
+$DarkBlack: #000000;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -10,4 +12,13 @@ $Roboto: 'Roboto', Arial, sans-serif;
 @import "setting/basic";
 
 @import "section/first";
-
+@import "section/features";
+@import "section/price";
+@import "section/included";
+@import "section/dispel";
+@import "section/materials";
+@import "section/working";
+@import "section/services";
+@import "section/contacts";
+@import "section/footer";
+@import "section/process";

@@ -3,152 +3,861 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Structure</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,700,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <title>Гипсолит</title>
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-<div class="wrapper">
-  <div class="main section">
-    <header class="header">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-2">
-            <div class="header__logo">
-              <div class="logo">
-                <img class="logo-pic" src="img/logo.png" width="184" height="28" alt="Логотип" title="Логотип" >
+  <div class="wrapper">
+    <section class="main section">
+      <header class="header">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-2 mr-auto">
+              <div class="header__logo">
+                <div class="logo">
+                  <img src="img/logo.png" width="206" height="70" alt="Логотип" title="Логотип">
+                </div>
               </div>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div class="col-lg-6 ml-lg-auto">
-            <div class="header__navigation">
-              <nav class="navigation collapse navbar-collapse">
-                <ul class="navigation__list">
-                  <li class="navigation__item navigation__item--active">
-                    <span class="navigation__text">Home</span>
-                  </li>
-                  <li class="navigation__item">
-                    <a class="navigation__link" href="#">About</a>
-                  </li>
-                  <li class="navigation__item">
-                    <a class="navigation__link" href="#">Gallery</a>
-                  </li>
-                  <li class="navigation__item">
-                    <a class="navigation__link" href="#">Services</a>
-                  </li>
-                  <li class="navigation__item">
-                    <a class="navigation__link" href="#">Team</a>
-                  </li>
-                  <li class="navigation__item">
-                    <a class="navigation__link" href="#">Price</a>
-                  </li>
-                  <li class="navigation__item">
-                    <a class="navigation__link" href="#">News</a>
-                  </li>
-                  <li class="navigation__item">
-                    <a class="navigation__link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </nav>
+            <div class="col-lg-2">
+              <a class="header__phone-link" href="tel:+74957710508">
+                +7 495 771 05 08
+              </a>
             </div>
-          </div>
-          <div class="col-lg-1">
-            <div class="header__search">
-              <div class="search">
-                <ul class="search__list">
-                  <li class="search__item">
-                    <a class="search__link search__link--icon-lock" href="#" title="Замок"></a>
-                  </li>
-                  <li class="search__item">
-                    <a class="search__link search__link--icon-loupe" href="#" title="Лупа"></a>
-                  </li>
-                </ul>
-              </div>
+            <div class="col-lg-2">
+              <a class="header__btn btn" href="#">Получить консультацию</a>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <div class="slider">
-      <div class="slide">
+      </header>
+      <section class="promo">
         <div class="container">
           <div class="row">
-            <div class="col-lg-12">
-              <div class="slide__title">
-                <span class="slide__title-text">
-                  We Build Your
-                </span>
-                <span class="slide__title--color_orange">
-                  Dream
-                </span>
-                House
+            <div class="col-lg-5 mr-auto">
+              <div class="promo__title">
+                Автоматизированная
+                штукатурка стен
               </div>
-              <div class="slide__text">
-                Fast & Safe Construction
+              <div class="promo__desc">
+                Идеально ровные стены<br>
+                в кратчайшие сроки
               </div>
-              <div class="slide__desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-                Ut quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              <div class="promo__price">
+                Стоимость работ
+                от <span class="promo__price-text">300</span> руб/м2
               </div>
-              <a class="slide__btn btn" href="#">GET A QUOTE</a>
+              <div class="promo__text">
+                Оплата по факту!
+              </div>
             </div>
+            <div class="col-lg-4">
+              <form action="#" class="promo-form">
+                <div class="promo-form__title">
+                  Для расчёта точной стоимости
+                  закажите <span class="promo-form__title-text">
+                выезд замерщика
+              </span>
+                </div>
+                <div class="promo-form__item">
+                  <label for="your-name" class="promo-form__label">
+                    Ваше имя
+                  </label>
+                  <input class="promo-form__input" type="text" name="name" id="your-name">
+                </div>
+                <div class="promo-form__item">
+                  <label for="your-tel" class="promo-form__label promo-form__label--correct">
+                    Номер телефона
+                  </label>
+                  <input class="promo-form__input" type="tel" name="name" id="your-tel">
+                </div>
+                <button class="promo-form-btn btn">Оставьте Заявку</button>
+                <div class="promo-form__text">
+                  Приедем в день обращения*
+                </div>
+              </form>
+              <div class="promo__day-work">
+                * - выезды на замер осуществляются<br>
+                в рабоче дни Пн-Пт с 9:00 до 18:00
+              </div>
             </div>
           </div>
+        </div>
+      </section>
+    </section>
+    <section class="features section global-p">
+      <div class="container">
+        <div class="section-title features__heading">
+          Преимущества работы с нами
+        </div>
+        <div class="row justify-content-around">
+          <div class="col-lg-3 col-md-6">
+            <div class="features__item">
+              <div class="features__img">
+                <img src="img/features-img.png" width="79" height="67" alt="Картинка Преимущества">
+              </div>
+              <div class="features__text">
+                <div class="features__title">
+                  Платите по факту
+                </div>
+                <div class="features__desc">
+                  Вы оплачиваете выполненные
+                  работы только после их выполнения.
+                  Никаких скрытых доплат и промежуточных платежей.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="features__item">
+              <div class="features__img">
+                <img src="img/features-img2.png" width="65" height="62" alt="Картинка Преимущества">
+              </div>
+              <div class="features__text">
+                <div class="features__title">
+                  Заключаем договор
+                </div>
+                <div class="features__desc">
+                  Перед началом работ заключаем договор на юридическое лицо.
+                  Вы можете быть уверены, что все обязательства будут выполнены.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="features__item">
+              <div class="features__img">
+                <img src="img/features-img3.png" width="66" height="66" alt="Картинка Преимущества">
+              </div>
+              <div class="features__text">
+                <div class="features__title">
+                  Точно в срок
+                </div>
+                <div class="features__desc">
+                  Работаем строго по установленным срокам, которые прописаны
+                  в договоре. Если не успеваем,
+                  Вы платите меньше
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="features__item">
+              <div class="features__img">
+                <img src="img/features-img4.png" width="59" height="69" alt="Картинка Преимущества">
+              </div>
+              <div class="features__text">
+                <div class="features__title">
+                  Экономите на материалах
+                </div>
+                <div class="features__desc">
+                  Мы являемся структурным подразделением компании поставщика строительных смесей <a class="features__desc-link" href="#">gicema.ru</a>
+                  и даём Вам самые выгодные цены.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <section class="price section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <div class="price__content-top">
+              <div class="section-title section-title--color_white">
+                Цены
+              </div>
+              <div class="price__text">
+                Выберите вариант, который подходит Вам:
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <a class="price-btn-big btn" href="#">
+              Рассчитать точую стоимость
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="price__item">
+              <div class="price__title">
+                Штукатурка вашим материалом
+              </div>
+              <div class="price__img">
+                <img class="price__img-pic" src="img/price-img.jpg" width="300" height="200" alt="Прайс-Картинка">
+              </div>
+              <div class="price__desc">
+                от <span class="price__desc-text">300</span> руб/м2
+              </div>
+              <ul class="price__list custom-list">
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                  Проведение работ
+                </li>
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                  Уборка
+                </li>
+              </ul>
+              <a class="price__btn btn" href="#">Заказать</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="price__item">
+              <div class="price__title">
+                Штукатурка под шпаклёвку
+              </div>
+              <div class="price__img">
+                <img class="price__img-pic" src="img/price-img2.jpg" width="300" height="200" alt="Прайс-Картинка">
+              </div>
+              <div class="price__desc">
+                от <span class="price__desc-text">530</span> руб/м2
+              </div>
+              <ul class="price__list custom-list">
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                   Завоз материала и его подъём
+                </li>
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                  Проведение работ
+                </li>
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                   Уборка
+                </li>
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                  Гарантия 2 года
+                </li>
+              </ul>
+              <a class="price__btn btn" href="#">Заказать</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="price__item">
+              <div class="price__title">
+                Штукатурка под обои
+              </div>
+              <div class="price__img">
+                <img class="price__img-pic" src="img/price-img3.jpg" width="295" height="200" alt="Прайс-Картинка">
+              </div>
+              <div class="price__desc">
+                от <span class="price__desc-text">560</span> руб/м2
+              </div>
+              <ul class="price__list custom-list">
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                  Завоз материала и его подъём
+                </li>
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                  Проведение работ
+                </li>
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                  Уборка
+                </li>
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                  Гарантия 2 года
+                </li>
+                <li class="custom-list__item">
+                  <span class="custom-list__icon"></span>
+                   Можно сразу клеить обои
+                </li>
+              </ul>
+              <a class="price__btn btn" href="#">Заказать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="process global-p">
+      <div class="container">
+        <div class="section-content-top">
+          <div class="section-title">Схема работы</div>
+          <div class="section-text section-text--fz_small">Работа над вашим объектом будет включать в себя следующие этапы:</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="process__item">
+              <div class="process__img">
+                <img class="process__img-pic" src="img/process-img.png" width="146" height="100" alt="Процес-Картинка">
+              </div>
+              <div class="process__title">
+                Заявка
+              </div>
+              <div class="process__desc">
+                Оставляете онлайн заявку или звоните +7 495 771 05 08
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="process__item">
+              <div class="process__img">
+                <img class="process__img-pic" src="img/process-img2.png" width="119" height="90" alt="Процес-Картинка">
+              </div>
+              <div class="process__title">
+                Выезд специалиста
+              </div>
+              <div class="process__desc">
+                В течение 1 рабочего дня к Вам приезжает специалист,
+                который выполнит замеры для точной стоимости работ
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="process__item">
+              <div class="process__img">
+                <img class="process__img-pic" src="img/process-img3.png" width="135" height="103" alt="Процес-Картинка">
+              </div>
+              <div class="process__title">
+                Составление договора
+              </div>
+              <div class="process__desc">
+                Готовим договор и согласовываем с Вами
+              </div>
+            </div>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-lg-4">
+            <div class="process__item">
+              <div class="process__img">
+                <img class="process__img-pic" src="img/process-img4.png" width="120" height="97" alt="Процес-Картинка">
+              </div>
+              <div class="process__title">
+                Начало работ
+              </div>
+              <div class="process__desc">
+                Доставляем материалы, оборудование, подписываем договор и начинаем работы
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="process__item">
+              <div class="process__img">
+                <img class="process__img-pic" src="img/process-img5.png" width="129" height="105" alt="Процес-Картинка">
+              </div>
+              <div class="process__title">
+                Завершение работ
+              </div>
+              <div class="process__desc">
+                После окончания работ Вы проверяете качество и подписываете акт сдачи, производите оплату.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="included section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 ml-auto mr-auto">
+            <div class="included__content-top">
+              <div class="section-title section-title--color_green">
+                Все на 100% включено!
+              </div>
+              <div class="included__text">
+                При выполнении работ с нашим материалом в стоимость входит:
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-lg-3">
+              <div class="included__item">
+                <div class="included__img">
+                  <div class="included__number">
+                    1
+                  </div>
+                </div>
+                <div class="included__content">
+                  <div class="included__title">
+                    Материал:
+                  </div>
+                  <div class="included__desc">
+                    штукатурка, грунтовка или бетоноконтакт, маяки, сетка на стыки
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="included__item">
+                <div class="included__img">
+                  <div class="included__number">
+                    2
+                  </div>
+                </div>
+                <div class="included__content">
+                  <div class="included__title">
+                    Доставка оборудования
+                    и материала на объект
+                  </div>
+                  <div class="included__desc"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="included__item">
+                <div class="included__img">
+                  <div class="included__number">
+                    3
+                  </div>
+                </div>
+                <div class="included__content">
+                  <div class="included__title">
+                    Подготовка поверхности
+                  </div>
+                  <div class="included__desc">
+                    (очистка, грунтование)
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="included__item">
+                <div class="included__img">
+                  <div class="included__number">
+                    4
+                  </div>
+                </div>
+                <div class="included__content">
+                  <div class="included__title">
+                    Установка маяков
+                  </div>
+                  <div class="included__desc"></div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg-3">
+              <div class="included__item">
+                <div class="included__img">
+                  <div class="included__number">
+                    5
+                  </div>
+                </div>
+                <div class="included__content">
+                  <div class="included__title">
+                    Оштукатуривание
+                    поверхности
+                  </div>
+                  <div class="included__desc"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="included__item">
+                <div class="included__img">
+                  <div class="included__number">
+                    6
+                  </div>
+                </div>
+                <div class="included__content">
+                  <div class="included__title">
+                    Удаление маяков
+                  </div>
+                  <div class="included__desc"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="included__item">
+                <div class="included__img">
+                  <div class="included__number">
+                    3
+                  </div>
+                </div>
+                <div class="included__content">
+                  <div class="included__title">
+                    Глянцевание
+                  </div>
+                  <div class="included__desc"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="included__item">
+                <div class="included__img">
+                  <div class="included__number">
+                    4
+                  </div>
+                </div>
+                <div class="included__content">
+                  <div class="included__title">
+                    Уборка и вывоз мусора
+                  </div>
+                  <div class="included__desc"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="dispel section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="section-title dispel__heading">
+              Мы развеем все опасения
+            </div>
+          </div>
+        </div>
+        <div class="dispel__content">
+          <div class="row">
+            <div class="col-lg-5 mr-auto">
+              <div class="dispel__left">
+                <div class="dispel__title dispel__title--opacity">
+                  Какие могут быть проблемы:
+                </div>
+                <ul class="custom-list dispel__list">
+                  <li class="custom__item dispel__item dispel__item--cansel">
+                    Стены и углы будут неровным
+                  </li>
+                  <li class="custom__item dispel__item dispel__item--cansel">
+                    Ремонт затянется на долгие месяц
+                  </li>
+                  <li class="custom__item dispel__item dispel__item--cansel">
+                    Сложности с доставкой и разгрузкой материалов
+                  </li>
+                  <li class="custom__item dispel__item dispel__item--cansel">
+                    Останется мусор и пыль после работ
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="dispel__right">
+                <div class="dispel__title">
+                  Наше решение:
+                </div>
+                <ul class="custom-list dispel__list">
+                  <li class="custom-list__item dispel__item">
+                    <span class="custom-list__icon custom-list__icon--dispel"></span>
+                    Высокая квалификация специалистов + минимум
+                    5 летний опыт работы = идеально ровные поверхности
+                  </li>
+                  <li class="custom-list__item dispel__item">
+                    <span class="custom-list__icon custom-list__icon--dispel"></span>
+                    Соблюдаем сроки, которые прописаны в договоре.
+                    На квартиру площадью 135 м2 уходит от 3 до 5 дней
+                  </li>
+                  <li class="custom-list__item dispel__item">
+                    <span class="custom-list__icon custom-list__icon--dispel"></span>
+                    Доставка материала и подъём бесплатно
+                  </li>
+                  <li class="custom-list__item dispel__item">
+                    <span class="custom-list__icon custom-list__icon--dispel"></span>
+                    Убираем и вывозим мусор после работ
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="materials global-p">
+      <div class="container">
+        <div class="materials__content-top">
+          <div class="section-title section-title--color_black">
+            Материалы
+          </div>
+          <div class="materials__text">
+            Мы работаем только качественными, проверенными временем материалами, следующих производителей:
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="materials__item">
+              <div class="materials__img">
+                <img class="materials__img-pic" src="img/knauf.png" width="144" height="177" alt="Картинка1" >
+              </div>
+              <div class="materials__title">
+                Knauf
+              </div>
+              <div class="materials__desc">
+                МП-75 <span class="materials__desc-weight">245</span> руб/меш
+              </div>
+              <a href="#" class="materials__link">
+                Сертификат
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="materials__item">
+              <div class="materials__img">
+                <img class="materials__img-pic" width="182" height="167" src="img/volma.png" alt="Картинка1" >
+              </div>
+              <div class="materials__title">
+                Volma
+              </div>
+              <div class="materials__desc">
+                Аква слой <span class="materials__desc-weight">245</span> руб/меш<br>
+                Гипс актив <span class="materials__desc-weight">245</span> руб/меш
+              </div>
+              <a href="#" class="materials__link">
+                Сертификат
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="materials__item">
+              <div class="materials__img">
+                <img class="materials__img-pic" width="177" height="165" src="img/forman.png" alt="Картинка1" >
+              </div>
+              <div class="materials__title">
+                Forman
+              </div>
+              <div class="materials__desc">
+                Аква слой <span class="materials__desc-weight">245</span> руб/меш<br>
+                Гипс актив <span class="materials__desc-weight">245</span> руб/меш
+              </div>
+              <a href="#" class="materials__link">
+                Сертификат
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="materials__item">
+              <div class="materials__img">
+                <img class="materials__img-pic" width="220" height="165" src="img/ceresit.png" alt="Картинка1" >
+              </div>
+              <div class="materials__title">
+                Ceresit
+              </div>
+              <div class="materials__desc">
+                Аква слой <span class="materials__desc-weight">245</span> руб/меш<br>
+                Гипс актив <span class="materials__desc-weight">245</span> руб/меш
+              </div>
+              <a href="#" class="materials__link">
+                Сертификат
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="materials__text">
+          Вы можете приобрести материалы по оптовым ценам на сайте <a class="materials__text-link" href="#">gicema.ru</a> или по телефону
+          <a class="materials__desc-weight materials__text-weight" href="tel:+74957906990">+7 495 790 69 90</a>
+        </div>
+      </div>
+    </section>
+    <section class="promo global-p working">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 mr-auto">
+            <div class="promo__title">
+              Посмотрите<br>
+              как мы работаем
+            </div>
+            <div class="promo__desc">
+              Хотите удостовериться в профессионализме наших сотрудников?
+            </div>
+            <div class="promo__desc">
+              Вы можете сделать это, приехав на один из наших объектов, и понаблюдав за ходом работ.
+              Увидите оборудование, материалы и качество исполнения.
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <form action="#" class="promo-form">
+              <div class="promo-form__title">
+                Оставьте контактные данные
+                для связи
+              </div>
+              <div class="promo-form__item">
+                <label for="name" class="promo-form__label">
+                  Ваше имя
+                </label>
+                <input class="promo-form__input" type="text" name="name" id="name">
+              </div>
+              <div class="promo-form__item">
+                <label for="tel" class="promo-form__label promo-form__label--correct">
+                  Номер телефона
+                </label>
+                <input class="promo-form__input" type="tel" name="name" id="tel">
+              </div>
+              <button class="promo-form-btn btn">Оставьте Заявку</button>
+              <div class="promo-form__text promo-form__text--small">
+                Подберем ближайщий к вам объект
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services global-p">
+      <div class="container">
+        <div class="section-content-top section-content-top--color_white">
+          <div class="section-title section-title--color_white">Дополнительные услуги</div>
+          <div class="section-text">Помимо штукатурных рыбот Вы можете заказать у нас следующие услуги</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="services__item">
+              <div class="services__img">
+                <img class="services__img-pic" src="img/services-img.jpg" width="329" height="174" alt="Сервис-Картинка">
+              </div>
+              <div class="services__title">
+                Монтаж электропроводки
+              </div>
+              <a class="services-btn btn" href="#">Цены</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="services__item">
+              <div class="services__img">
+                <img class="services__img-pic" src="img/services-img2.jpg" width="330" height="174" alt="Сервис-Картинка">
+              </div>
+              <div class="services__title">
+                Стяжка пола
+              </div>
+              <a class="services-btn btn" href="#">Цены</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="services__item">
+              <div class="services__img">
+                <img class="services__img-pic" src="img/services-img3.jpg" width="330" height="174" alt="Сервис-Картинка">
+              </div>
+              <div class="services__title">
+                Сантехнические работы
+              </div>
+              <a class="services-btn btn" href="#">Цены</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts global-p">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mr-auto">
+            <div class="contacts__left">
+              <div class="section-title section-title--pos_left">
+                Контакты
+              </div>
+              <div class="contacts__item">
+                <div class="contacts__title">
+                  Адрес офиса:
+                </div>
+                <div class="contacts__desc">
+                  Москва, копейское шоссе, 12, офис 34
+                </div>
+              </div>
+              <div class="contacts-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17961.729763376923!2d37.612347353807266!3d55.75474606235662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRltGP!5e0!3m2!1suk!2shk!4v1512903930240" width="600" height="185" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+              <div class="contacts__item">
+                <div class="contacts__title">
+                  Номер телефона:
+                </div>
+                <div class="contacts__desc">
+                  +7 495 771 05 08
+                </div>
+              </div>
+              <div class="contacts__item">
+                <div class="contacts__title">
+                  E-mail:
+                </div>
+                <div class="contacts__desc">
+                  order@gipsolit.ru
+                </div>
+              </div>
+              <div class="contacts__item">
+                <div class="contacts__title">
+                  Реквизиты:
+                </div>
+                <div class="contacts__desc">
+                  ИНН 35453453  ОГРН 34234234
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="services__right">
+              <form action="#" class="promo-form">
+                <div class="promo-form__title">
+                  Для расчёта точной стоимости
+                  закажите <span class="promo-form__title-text">
+                выезд замерщика
+              </span>
+                </div>
+                <div class="promo-form__item">
+                  <label for="your-name" class="promo-form__label">
+                    Ваше имя
+                  </label>
+                  <input class="promo-form__input" type="text" name="name" id="your-name">
+                </div>
+                <div class="promo-form__item">
+                  <label for="your-tel" class="promo-form__label promo-form__label--correct">
+                    Номер телефона
+                  </label>
+                  <input class="promo-form__input" type="tel" name="name" id="your-tel">
+                </div>
+                <div class="promo-form__item">
+                  <label for="your-tel" class="promo-form__label">
+                    E-mail
+                  </label>
+                  <input class="promo-form__input" type="tel" name="name" id="your-tel">
+                </div>
+                <div class="promo-form__item">
+                  <label for="message" class="promo-form__label">
+                    Сообщение
+                  </label>
+                  <textarea class="promo-form__input contacts__message" name="message" id="message"></textarea>
+                </div>
+                <button class="promo-form-btn btn">Оставьте Заявку</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-3">
+            <div class="footer__logo">
+              <img src="img/logo.png" width="206" height="70" alt="Логотип">
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer__contacts">
+              <div class="contacts">
+                <div class="contacts__number">
+                  <a class="header__phone-link" href="tel:+74957710508">
+                    +7 495 771 05 08
+                  </a>
+                </div>
+                <div class="contacts__item">
+                  <a class="contacts__link" href="#">
+                    order@gipsolit.ru
+                  </a>
+                  <a class="contacts__link" href="#">
+                    Пн-Пт: с 9:00 до 18:00
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer__author">
+              <div class="author">
+                <div class="author__title">
+                  Разработка<br>
+                  сайта:
+                </div>
+                <div class="auhor__avatar">
+                  <img src="img/author-logo.png" width="140" height="50" alt="Разработчик">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
-  <section class="features section">
-    <div class="container">
-      <div class="row ">
-        <div class="col-md-4">
-          <div class="features__item">
-            <div class="features__img">
-              <img class="features__img-pic" src="img/features-icon.png" width="44" height="54" alt="Картинка">
-            </div>
-            <div class="features__title">
-              Fair price
-            </div>
-            <div class="features__desc">
-              Lorem ipsum dolor sit am consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore aliquip ex ea commodo consequat.
-            </div>
-            <a class="features__link" href="#">Read More</a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="features__item">
-            <div class="features__img">
-              <img class="features__img-pic" src="img/features-icon.png" width="44" height="54" alt="Картинка">
-            </div>
-            <div class="features__title">
-              24/7 support
-            </div>
-            <div class="features__desc">
-              Lorem ipsum dolor sit am consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore aliquip ex ea commodo consequat.
-            </div>
-            <a class="features__link" href="#">Read More</a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="features__item">
-            <div class="features__img">
-              <img class="features__img-pic" src="img/features-icon.png" width="44" height="54" alt="Картинка">
-            </div>
-            <div class="features__title">
-              Fast delivery
-            </div>
-            <div class="features__desc">
-              Lorem ipsum dolor sit am consecteturadipiscing elit, sed do eiusmod tempor incididunt ut labore aliquip ex ea commodo consequat.
-            </div>
-            <a class="features__link" href="#">Read More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
 </body>
 </html>

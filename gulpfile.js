@@ -9,7 +9,6 @@ const cleanCSS = require('gulp-cleancss');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const autoprefixer = require('gulp-autoprefixer');
-const babel = require('gulp-babel');
 
 const rename = require('gulp-rename');
 const del = require('del');
