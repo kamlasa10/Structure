@@ -6,9 +6,13 @@
 }
 .header {
   padding-top: rem(15px);
+  margin-bottom: rem(50px);
+}
+.header__logo {
+  margin-bottom: rem(20px);
 }
 .logo img {
-  width: rem(206px);
+  max-width: 100%;
 }
 .header__phone-link {
   white-space: nowrap;
@@ -23,10 +27,15 @@
     color: lighten(#292929, 15%);
   }
 }
+.header-btn {
+  font-size: rem(12px);
+
+  @include tablets {
+    margin-top: rem(20px);
+  }
+}
 
 .promo {
-  display: flex;
-  flex-direction: column;
   flex-grow: 0.8;
   justify-content: center;
   color: #292929;
@@ -37,11 +46,21 @@
   line-height: rem(58px);
   font-weight: 700;
   text-transform: uppercase;
+
+  @include tablets {
+    margin-bottom: rem(20px);
+    font-size: rem(30px);
+    line-height: rem(40px);
+  }
 }
 .promo__desc {
   margin-bottom: rem(45px);
   font-size: rem(24px);
   line-height: rem(30px);
+
+  @include tablets {
+    margin-bottom: rem(25px);
+  }
 }
 .promo__price {
   display: inline-flex;
@@ -66,6 +85,10 @@
   padding: rem(45px) rem(50px);
   background-color: #ffffff;
   text-align: center;
+
+  @include tablets {
+    padding: rem(30px);
+  }
 }
 .promo-form__title {
   margin-bottom: rem(30px);

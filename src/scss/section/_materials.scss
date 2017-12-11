@@ -30,6 +30,10 @@
   font-size: rem(19px);
   line-height: rem(18px);
   min-height: rem(68px);
+
+  @include tablets {
+    min-height: rem(50px);
+  }
 }
 .materials__desc-weight {
   font-weight: 700;

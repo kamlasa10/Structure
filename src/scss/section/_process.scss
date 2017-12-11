@@ -1,5 +1,8 @@
 .process {
   background: url("../img/process-bg.jpg") right bottom no-repeat;
+  @include tablets {
+    background: none;
+  }
 }
 .process__item {
   margin-bottom: rem(85px);

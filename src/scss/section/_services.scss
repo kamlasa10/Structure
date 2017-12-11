@@ -4,15 +4,24 @@
 }
 .services__item {
   text-align: center;
+  margin-bottom: rem(30px);
 }
 .services__img {
   margin-bottom: rem(30px);
+
+  @include tablets {
+    margin-bottom: rem(20px);
+  }
 }
 .services__title {
   margin-bottom: rem(30px);
   font-size: rem(20px);
   font-weight: 700;
   line-height: rem(18px);
+
+  @include tablets {
+    margin-bottom: rem(20px);
+  }
 }
 .services-btn {
   padding-left: rem(50px);

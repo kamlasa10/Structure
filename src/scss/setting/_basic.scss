@@ -22,10 +22,6 @@ body {
   background-color: #ffffff;
   box-sizing: border-box;
 }
-.section {
-  height: 100vh;
-  min-height: rem(700px);
-}
 .wrapper {
   overflow: hidden;
 }
@@ -41,6 +37,14 @@ body {
   &--pos_left {
     text-align: left;
   }
+  
+  &--color_green {
+    color: #358015;
+  }
+
+  @include tablets {
+    margin-bottom: rem(30px);
+  }
 }
 .section-content-top {
   text-align: center;
@@ -48,6 +52,14 @@ body {
 
   &--color_white {
     color: #ffffff;
+  }
+
+  &--color_black {
+    color: $DarkBlack;
+  }
+
+  @include tablets {
+    margin-bottom: rem(60px);
   }
 }
 .section-text {
@@ -82,6 +94,10 @@ body {
 }
 .global-p {
   padding: rem(100px) 0;
+
+  @include tablets {
+    padding: rem(70px) 0;
+  }
 
   @include phones {
     padding: rem(50px) 0;

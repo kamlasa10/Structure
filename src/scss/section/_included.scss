@@ -6,16 +6,16 @@
   margin-bottom: rem(90px);
   text-align: center;
 }
-.section-title--color_green {
-  color: #358015;
-  margin-bottom: rem(40px);
-}
 .included__text {
   line-height: rem(18px);
 }
 .included__item {
   display: flex;
   margin-bottom: rem(70px);
+
+  @include tablets {
+    margin-bottom: rem(45px);
+  }
 }
 .included__img {
   display: flex;

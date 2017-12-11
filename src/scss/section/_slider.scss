@@ -1,0 +1,24 @@
+.slider {
+  background: url("../img/slider-bg.jpg") top center;
+  background-size: cover;
+}
+.slide {
+  padding: rem(55px) rem(60px);
+  background-color: #ffffff;
+  box-shadow: 0 12px 18px rgba(0, 0, 0, 0.11);
+}
+.slide__work-img {
+  max-width: 100%;
+  margin-bottom: rem(15px);
+}
+.slide__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.slide__item {
+  margin-bottom: rem(20px);
+}
+.slide__item-weight {
+  font-weight: 700;
+}

@@ -3,9 +3,16 @@
   background: url("../../img/contacts-bg.png") center no-repeat;
   background-size: cover;
 }
+.contacts__left {
+
+  @include tablets {
+    margin-bottom: rem(35px);
+  }
+}
 .contacts__item {
   margin-bottom: rem(25px);
 }
+
 .contacts__title {
   margin-bottom: rem(8px);
   font-size: rem(18px);

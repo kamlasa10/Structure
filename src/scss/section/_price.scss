@@ -1,18 +1,7 @@
 .price {
-  padding: rem(100px) 0;
   background: url("../img/price-pattern.png") center center repeat;
-
-  @include tablets {
-    padding: rem(50px) 0;
-  }
 }
-.price__content-top {
-  margin-bottom: rem(85px);
 
-  @include tablets {
-    margin-bottom: rem(30px);
-  }
-}
 .section-title--color_white {
   margin-bottom: rem(30px);
   color: #ffffff;
@@ -23,17 +12,22 @@
   color: #ffffff;
 }
 .price-btn-big {
+  margin-bottom: rem(40px);
   font-size: rem(18px);
   margin-top: rem(20px);
 }
 .price__item {
   height: 100%;
   position: relative;
-  margin-bottom: rem(30px);
-  padding: rem(50px) 0;
+  margin-bottom: rem(45px);
+  padding: rem(50px);
   text-align: center;
   background-color: #ffffff;
   box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17);
+
+  @include tablets {
+    padding: rem(30px);
+  }
 }
 .price__title {
   margin-bottom: rem(30px);

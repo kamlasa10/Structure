@@ -16,7 +16,12 @@
     height: 100%;
     z-index: 10;
     background: url("../img/dispel-img.png") no-repeat;
+
+    @include tablets {
+      display: none;
+    }
   }
+
 }
 .dispel__left {
   position: relative;
@@ -24,6 +29,7 @@
 }
 .dispel__right {
   border: 4px solid #358015;
+  margin-top: rem(60px);
 }
 .dispel__left,
 .dispel__right {
