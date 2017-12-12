@@ -29,7 +29,10 @@
 }
 .dispel__right {
   border: 4px solid #358015;
-  margin-top: rem(60px);
+
+  @include tablets {
+    margin-top: rem(60px);
+  }
 }
 .dispel__left,
 .dispel__right {
@@ -51,6 +54,10 @@
 
   &--opacity {
     color: rgba(#313131, 0.5);
+  }
+
+  @include tablets {
+    margin-bottom: rem(30px);
   }
 }
 .dispel__list {
@@ -81,6 +88,10 @@
       transform: rotate(-45deg);
     }
   }
+
+  @include tablets {
+    margin-bottom: rem(25px);
+  }
 }
 .custom-list__icon--dispel {
   position: absolute;
@@ -90,4 +101,5 @@
   height: rem(14px);
   background-image: url("../img/checked-dispel.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }

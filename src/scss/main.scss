@@ -11,6 +11,7 @@ $DarkBlack: #000000;
 @import "setting/fonts";
 @import "setting/basic";
 
+
 @import "section/first";
 @import "section/features";
 @import "section/price";
@@ -23,3 +24,6 @@ $DarkBlack: #000000;
 @import "section/contacts";
 @import "section/footer";
 @import "section/process";
+
+//plugin
+@import "setting/slick";

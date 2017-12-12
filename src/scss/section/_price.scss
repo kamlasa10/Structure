@@ -11,10 +11,20 @@
   text-align: center;
   color: #ffffff;
 }
+.price__block {
+
+  @include tablets {
+    text-align: center;
+  }
+}
 .price-btn-big {
   margin-bottom: rem(40px);
   font-size: rem(18px);
   margin-top: rem(20px);
+
+  @include phones {
+    margin-right: rem(10px);
+  }
 }
 .price__item {
   height: 100%;
